@@ -1,0 +1,60 @@
+/*
+style sheet for supporting navigation baar properties
+Fabmat 2016
+
+*/
+
+
+.navbar {
+    margin-bottom: 0;
+    background-color:#fff;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 2.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+	
+	font-family: Montserrat, sans-serif;
+	box-shadow:0px 3px 10px grey;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: ##000;  !important;
+	
+}
+.navbar .navbar-brand img{
+	float:left;}
+.navbar .navbar-brand{
+	transition:transform .5s;	
+	}
+	
+.navbar .navbar-brand:hover {
+		text-shadow:1px  #C2EBF6;
+		transform:scale(1.1,1.1);
+	}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #22b8eb !important;
+    background-color: #fff !important;
+}
+
+
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;}
+
+ .affix {
+      top: 0;
+      width: 100%;
+  }
+ .affix .navbar{
+	 box-shadow:0px 3px 10px grey;}
+
+ .affix .navbar-brand{
+	transform:scale(.8,.8);
+	color:#fff !important; }
+
+  .affix + .container-fluid {
+      padding-top: 70px;}
