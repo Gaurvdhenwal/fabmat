@@ -27,7 +27,7 @@
 </head>
 <body  id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
 
-<div  class="jumbotron" data-stellar-background-ratio="0.5"  >
+<div  class="jumbotron" data-stellar-background-ratio="0.4"  >
 
 <nav class="navbar navbar-default animated bounceInDown"  data-spy="affix" data-offset-top="100">
   <div class="container">
@@ -53,15 +53,15 @@
   </div>
 </nav>
 <!----------------------------------------------navigation over--------------------->
-<!--
-<div id="header1" data-stellar-ratio="1">
+
+<div id="header1" class="animated flipInX" >
     	<h1 class="pull-right"><span class="inside-h1">Welcome to </span>FabMat</h1>
     </div>
 	
-    <div id="header2" class="pull-right" data-stellar-ratio="1">
+    <div id="header2" class="pull-right animated flipInX" >
     	<h2>"A place full of totally awesome designs"</h2>
-    </div>  -->
-    
+    </div>  
+ <!--   
  <div id="content" class="container">
  	
     
@@ -69,7 +69,7 @@
             <p class="text-center lead">"A place full of cool and awesome designs"</p>
      	
  </div>
-  
+  -->
 
 </div>
 <!------ ----------------------------- main div jumbotron over--------------------------------> 
@@ -99,14 +99,21 @@
    <hr class="animated pulse infinite "/>
     
     <div class="row text-center" >
-    	<div class="col-lg-4">
+    	<div class=" col-sm-6  col-xs-12 col-md-4 col-lg-4 showcase" >
+        	<div class="imageholder">
+        	
         	<img class="img-circle"  src="main-carousal-images/2a4c9a1d560ca4dd0b8396161d5fa0a2.jpg" height="200" width="200" />
+            </div>
         </div>
         <div class="col-lg-4">
+        	<div class="imageholder">
         	<img class="img-circle"  src="main-carousal-images/2.jpg" height="200" width="200" />
+            </div>
         </div>
         <div class="col-lg-4">
+        	<div class="imageholder">
         	<img class="img-circle"  src="main-carousal-images/5.jpg" height="200" width="200" />
+            </div>
         </div>
     </div>
 	

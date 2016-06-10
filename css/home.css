@@ -47,8 +47,9 @@ body  h1{
 	top:auto;
 	
 	}
-.jumbotron .navbar{
-	margin:0px -20px;}	
+.jumbotron .navbar,#header1{
+	margin:0px -20px;}
+
 
 	
 #header1{
@@ -59,7 +60,7 @@ body  h1{
 	width:100%;
 	margin-top:150px;
 	}
-/*	
+	
 #header1 h1{
 	color:#fff;
 	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu";
@@ -85,7 +86,7 @@ body  h1{
 	color:#fff;
 	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu";
 	font-weight:lighter;}
-*/	
+/*	
 #content {
 	margin-top:150px;
 	border-radius:2px;
@@ -107,7 +108,7 @@ body  h1{
 	font-size:2em;}
 #content p{
 	color:#D4B068;}
-
+*/
 
 /*--------------------------------------------------------------------------------------------------*/
 
@@ -135,7 +136,7 @@ body  h1{
 
 
 #products{
-	height:850px;
+
 	background-color:#f6f6f6;
 	background:url(../images/1.jpg)  no-repeat fixed;
 	background-size:cover;
