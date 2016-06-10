@@ -1941,6 +1941,7 @@ if (typeof jQuery === 'undefined') {
     var active = $(selector)
       .parents('li')
       .addClass('active')
+	  
 
     if (active.parent('.dropdown-menu').length) {
       active = active

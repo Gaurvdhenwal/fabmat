@@ -1,5 +1,5 @@
 /*
-style sheet for supporting navigation baar properties
+style sheet for supporting navigation bar properties
 Fabmat 2016
 
 */
@@ -7,7 +7,7 @@ Fabmat 2016
 
 .navbar {
     margin-bottom: 0;
-    background-color:#fff;
+    background-color:transparent;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -15,16 +15,21 @@ Fabmat 2016
     letter-spacing: 4px;
     border-radius: 0;
 	
-	font-family: Montserrat, sans-serif;
-	box-shadow:0px 3px 10px grey;
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu";
+	font-weight:400;
+	
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: ##000;  !important;
+    color: #fff  !important;
+	box-sizing:border-box !important;
 	
 }
+.navbar .navbar-brand{
+	padding:0px 0px;}
 .navbar .navbar-brand img{
-	float:left;}
+	float:left;
+	}
 .navbar .navbar-brand{
 	transition:transform .5s;	
 	}
@@ -35,26 +40,43 @@ Fabmat 2016
 	}
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #22b8eb !important;
-    background-color: #fff !important;
+	-webkit-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+    color: #D4B068 !important;
+	
+	
+	background-color:transparent !important;
+   
 }
+
+.navbar-nav li.active a{
+	border-top:2px solid #d4b068;
+	-webkit-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;}
 
 
 
 .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;}
-
+/*-------------------------------------------------------------------------------
+						affix class of navigation
+---------------------------------------------------------------------------------*/
  .affix {
       top: 0;
       width: 100%;
+      -webkit-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+      background-image:url(../main-carousal-images/header-bg.png);
   }
- .affix .navbar{
-	 box-shadow:0px 3px 10px grey;}
+ .affix-top {
+     position: static;
+	
+      top: -35px;
+  }
 
  .affix .navbar-brand{
 	transform:scale(.8,.8);
 	color:#fff !important; }
 
-  .affix + .container-fluid {
-      padding-top: 70px;}
+  

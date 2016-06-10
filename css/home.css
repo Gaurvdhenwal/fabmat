@@ -2,10 +2,190 @@
 	fabmat 2016
 */
 
-.top-nav{
-	height:50px;
-	}
+body{
+	position:relative;}
+body  h1{
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu";
+	font-weight:lighter;}
+/* ------------------------------------------------------------- 
+		1.scrollbar properties
+   -------------------------------------------------------------*/
+
+::-webkit-scrollbar {
+   width: 10px;
+  
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+
+}
+ 
+::-webkit-scrollbar-thumb {
+    cursor: pointer;
+  background: #D4B068;
+  border-radius: 10px;
+}
+/*------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------------
+    2. main top div parallex and nav 
+  ---------------------------------------------------------------------*/
 	
 .jumbotron{
-	background-color:#CFD2D8;
-	padding:50px 30px;}
+	
+	background:no-repeat fixed url(../main-carousal-images/4.png)  ;
+	background-size:cover;
+	padding:50px 20px;
+	height:650px;
+	width:auto;
+	margin-bottom:0px;
+	z-index:1;
+	top:auto;
+	
+	}
+.jumbotron .navbar{
+	margin:0px -20px;}	
+
+	
+#header1{
+	position:absolute;
+	background-color:#000;
+	opacity:.8;
+	padding:0px 30px;
+	width:100%;
+	margin-top:150px;
+	}
+/*	
+#header1 h1{
+	color:#fff;
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu";
+	font-weight:lighter;
+}
+
+.inside-h1{
+	font-size:20px;
+	margin-right:50px;
+	vertical-align:middle;
+	}
+#header2{
+	position:absolute;
+	background-color:#000;
+	opacity:.8;
+	padding:10px 30px;
+	width:100%;
+	margin-top:250px;
+	right:0px !important;
+}
+
+#header2 h2{
+	color:#fff;
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu";
+	font-weight:lighter;}
+*/	
+#content {
+	margin-top:150px;
+	border-radius:2px;
+	border:1px solid white;
+	padding:30px 30px;
+	
+	
+	}
+
+
+#content h1,p{
+	color:#fff;
+	
+		font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu";
+	font-weight:lighter;
+	vertical-align:middle;}
+.brandtext{
+	font-weight:bold; 
+	font-size:2em;}
+#content p{
+	color:#D4B068;}
+
+
+/*--------------------------------------------------------------------------------------------------*/
+
+
+
+/*----------------------------------------------------------------
+	3. #about container
+  ----------------------------------------------------------------*/
+.container-fluid{
+	padding:40px 100px;}
+#about{
+	height:650px;
+	background-color:#fff;
+	z-index:1;}
+
+#about h1{
+		font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu";
+		font-weight:lighter;
+		
+		}
+
+/*--------------------------------------------------------------
+						* PRODUCTS SECTION *
+-----------------------------------------------------------------*/
+
+
+#products{
+	height:850px;
+	background-color:#f6f6f6;
+	background:url(../images/1.jpg)  no-repeat fixed;
+	background-size:cover;
+	z-index:3}
+#products h1{
+	color:#fff;
+	font-size:2empx;}
+#products p{
+	color:#fff;
+	font-size:16px;
+	}
+#products hr{
+	margin-top:5px;
+	margin-bottom:80px;
+	width:50%;
+	border-color:#765433;}
+#products .row .col-lg-4 img{
+	cursor:pointer;}
+
+
+
+/*----------------------------------------------------------------
+					*	clients section *
+------------------------------------------------------------------*/
+#clients{
+	height:650px;}
+#contact{
+	height:650px;}
+
+/*--------------------------------------------------------------
+						*  media properties *
+----------------------------------------------------------------*/
+@media (min-width:768px){
+	
+	.jumbotron{
+		height:670px;}
+	#header1{
+		width:55%;
+		}
+	#header2{
+		width:55%;}
+	#about h1{
+		font-size:50px;}
+	#content{
+		width:50%;}
+	#content h1,p{
+		font-size:30px;}
+		#products h1{
+			font-size:50px;}
+	
+	}
+	
+@media (min-width:992px){}
