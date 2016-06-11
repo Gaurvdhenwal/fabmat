@@ -25,7 +25,7 @@
 <link rel="stylesheet" href="css/home.css"/>
 
 </head>
-<body  id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
+<body  id="mypage" data-spy="scroll" data-target=".navbar" data-offset="100">
 
 <div  class="jumbotron" data-stellar-background-ratio="0.4"  >
 
@@ -75,23 +75,87 @@
 <!------ ----------------------------- main div jumbotron over--------------------------------> 
 
 <div class="container-fluid" id="about">
-	<h1 class="text-center">What do we do</h1>
+	<h1 class="text-center"><span class="first-letter">A</span>bout Us</h1>
+    <p class="text-center">We are experts in <span class="highlight">Digital Fabrication</span>, able to manufacture form a ring to complete house interiors</p>
     <hr/> 
-    <div class="row">
-    	<div class="col-lg-4">
-        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
-        </div>
-        <div class="col-lg-4 col-lg-offset-4">
-        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
-        </div>
+   <div class="row ">
+   		<div class="col-lg-12">
+        	<h2> How do we do it <i class="fa fa-arrow-right "></i></h2>
+         </div>
     </div>
+       
+    <div class="container steps">        
+    <div class="row">
+    	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        	<h3>
+            	<i class="fa fa-stack fa-1x">
+            		<i class="fa fa-circle-thin fa-stack-2x"></i>
+                    <strong class="fa-stack fa-stack-1x">1</strong>
+            	</i>
+                Designing
+             </h3>
+             <p>We design our products ...</p>
+        </div>
+        
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        	<h3>
+            	<i class="fa fa-stack fa-1x">
+            		<i class="fa fa-circle-thin fa-stack-2x"></i>
+                    <strong class="fa-stack fa-stack-1x">2</strong>
+            	</i>
+                CNC Router
+             </h3>
+             <p>Get our produsts ready with most presicion</p>
+        </div>
+        
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        	<h3>
+            	<i class="fa fa-stack fa-1x">
+            		<i class="fa fa-circle-thin fa-stack-2x"></i>
+                    <strong class="fa-stack fa-stack-1x">3</strong>
+            	</i>
+                Polishing and furnishing
+             </h3>
+             <p>Get our products ready..</p>
+        </div>
+        
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        	<h3>
+            	<i class="fa fa-stack fa-1x">
+            		<i class="fa fa-circle-thin fa-stack-2x"></i>
+                    <strong class="fa-stack fa-stack-1x">4</strong>
+            	</i>
+                Out in the store
+             </h3>
+             <p>Final product is out for the store</p>
+        </div>
+    </div>  
+        </div>
+        	
+        
+   <div class="container summary">
+           <div class="row text-center">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" style="color:#CACFD2  ;">
+                <i class="fa fa-clipboard fa-5x" ></i>
+                <h3>From Paper </h3>
+            </div>
+            <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+                <i class="fa fa-arrow-right fa-3x"></i>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" style="color:#873600  ;">
+                <i class="fa fa-home fa-5x"></i>
+                <h3>To your Home</h3>
+            </div>
+            
+           </div>
+   </div>
 </div>
 <!-----------------------------------about section over---------------------------------------->
 
-<div class="container-fluid" id="products" data-stellar-background-ratio="0.4" data-stellar-ration="0.8">
+<div class="container-fluid" id="products"  >
 	<div class="row">
     	<div class="col-lg-12 text-center">
-        	<h1 class="text-center ">Our Products</h1>
+        	<h1 class="text-center ">Our <span class="first-letter">P</span>roducts</h1>
             <p class="lead">Some of the awesome things made by us</p>
         </div>
     </div>
@@ -99,21 +163,41 @@
    <hr class="animated pulse infinite "/>
     
     <div class="row text-center" >
-    	<div class=" col-sm-6  col-xs-12 col-md-4 col-lg-4 showcase" >
-        	<div class="imageholder">
-        	
-        	
+    	<div class=" col-lg-4 col-md-6  col-sm-6 " >
+        	<i>
+        	<div class="showcase slideanim">
+        		<div class="image-holder">
+                	<img class="img-circle" height="200" width="200" src="main-carousal-images/2.jpg">
+                 </div>
+              	<div class="image-text text-center">
+                <h3> <span class="first-letter"> C</span>hairs</h3>
+                	
+                </div>
+        		
             </div>
-            
+            </i>
         </div>
-        <div class=" showcase col-lg-4  col-sm-6  col-xs-12 col-md-4">
-        	<div class="imageholder ">
-        	
+        <div class="  col-lg-4  col-md-6  col-sm-6 ">
+        	<div class="showcase slideanim ">
+        		<div class="image-holder">
+                	<img class="img-circle" height="200" width="200" src="main-carousal-images/2a4c9a1d560ca4dd0b8396161d5fa0a2.jpg">
+                 </div>
+              	<div class="image-text text-center">
+                	<h3> <span class="first-letter"> C</span>locks</h3>
+                	
+                </div>
+                
             </div>
         </div>
-        <div class=" showcase col-lg-4  col-sm-6  col-xs-12 col-md-4">
-        	<div class="imageholder">
-        	
+        <div class="  col-lg-4  col-md-6  col-sm-6 ">
+        	<div class=" showcase slideanim">
+        		<div class="image-holder">
+                	<img class="img-circle" height="200" width="200" src="main-carousal-images/5.jpg">
+                 </div>
+              	<div class="image-text text-center">
+                <h3><span class="first-letter">H</span>olders</h3>
+                	
+                </div>
             </div>
         </div>
     </div>
@@ -121,9 +205,115 @@
 </div>
 
 
-<div id="clients"></div>
+<div id="clients"  class="container-fluid" data-stellar-background-ratio="0.4"   >
+	<div class="row">
+    	<div class="col-lg-12 text-center">
+        	<h1 class="text-center ">Our <span class="first-letter">C</span>lients</h1>
+            <p class="lead">Happy Clients Come again .</p>
+        </div>
+    </div>
+    
+    <h2 class="text-center">What our customers say</h2>
+<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
 
-<div id="contact"></div>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+    <h4>"This company is the best. I am so happy with the result!"<br><span style="font-style:normal;">Michael Roe, Vice President, Comment Box</span></h4>
+    </div>
+    <div class="item">
+      <h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span></h4>
+    </div>
+    <div class="item">
+      <h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler Bing, Actor, FriendsAlot</span></h4>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  
+</div>
+    
+	
+</div>
+
+
+
+
+
+<div id="contact" class="container-fluid text-center">
+ <div class="row">
+    	<div class="col-lg-12 text-center">
+        	<h1 class="text-center "><span class="first-letter">C</span>ontact Us</h1>
+            <p class="lead">Contact us and we'll get back to you in 24 hours.</p>
+        </div>
+    </div>
+ 
+ <hr/>
+  <div class="row ">
+    
+    <div class="col-sm-8 col-sm-offset-2">
+      <div class="row">
+      	<form>
+                <div class="col-sm-6 form-group slideanim">
+                  <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                </div>
+                <div class="col-sm-6 form-group slideanim">
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                </div>
+                </div>
+              <textarea class="form-control slideanim" id="comments" name="comments" placeholder="Message" rows="5"></textarea><br>
+              <div class="row">
+                <div class="col-sm-12 form-group slideanim">
+                  <button class="btn btn-primary btn-lg animated pulse infinite " id='send' type="submit">Send</button>
+       
+                </div>
+              </div> 
+      
+      </form>
+    </div>
+  </div>
+   
+ 
+    </div>
+
+
+  <footer class="container-fluid text-center" id="footer">
+  	<div class="row">
+    	<div class="col-lg-4 slideanim">
+        	<h3><span class="first-letter fa  fa-map-marker"></span> Jaipur, India <h3>
+        </div>
+        <div class="col-lg-4 slideanim">
+        <h3><span class="first-letter fa fa-envelope-square"></span> fabmat@gmail.com</h3>
+        </div>
+        <div class="col-lg-4 slideanim">
+        	<h3> <span class="first-letter fa fa-mobile-phone"></span> +917597208375</h3>
+        </div>
+    </div>
+  
+  <br/>
+  <a href="#mypage" title="To Top">
+    <span class=" fa fa-chevron-circle-up fa-2x animated bounce infinite" style="color:#D4B068;"></span>
+  </a>
+   
+   <hr/>
+   <div class="row social">
+   	<div class="col-lg-12">
+    	<a ><i class="fa fa-facebook-official"></i></a> <a><i class="fa fa-twitter-square"></i></a> <a><i class="fa fa-google-plus-square"></i></a> 
+    </div>
+   </div>
+   <div class="row rights">
+   	<div class="col-lg-12">
+    	<p>All rights reserved &copy; Fabmat.in</p>
+    </div>
+   </div>
+</footer>
+
 </body>
 
 

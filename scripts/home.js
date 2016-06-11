@@ -1,6 +1,6 @@
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+  $(".navbar a, footer a[href='#mypage']").on('click', function(event) {
 
    // Make sure this.hash has a value before overriding default behavior
   if (this.hash !== "") {
@@ -10,6 +10,7 @@ $(document).ready(function(){
 
     // Store hash
     var hash = this.hash;
+	
 
     // Using jQuery's animate() method to add smooth page scroll
     // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
@@ -37,17 +38,38 @@ $.fn.extend({
     }
 });
 
-$("#content h1").mouseenter(function(){
-		$("#content h1").animateCss("shake");
+$("#footer .social a").mouseenter(function(){
+		$("#footer .social a").animateCss("shake");
 	})
 	
 	
+/*-----------------------------------------------------------------
+					text on products images
+-------------------------------------------------------------------*/	
+	$(".showcase").mouseenter(function(){
+		$(this).find(".image-holder").addClass("animated flipOutX");
+		
+		$(this).find(".image-text").css("z-index","1").addClass("animated zoomIn");
+		})
 	
+	$(".showcase").mouseleave(function(){
+		$(this).find(".image-text").css("z-index","-1").removeClass("animated zoomIn");
 	
-	
+		$(this).find(".image-holder").removeClass("animated flipOutX").addClass("animated flipInX");
+		
+		})
 /// ------------------------------ removing some classes if window size is less then 768px--------------
 
+$(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
 
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
 
 	
   
