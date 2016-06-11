@@ -38,10 +38,12 @@ $.fn.extend({
     }
 });
 
-$("#footer .social a").mouseenter(function(){
-		$("#footer .social a").animateCss("shake");
+$("#footer .social .col-lg-12 li").mouseenter(function(){
+		$("#footer .social .col-lg-12 li").animateCss("jello");
 	})
-	
+$(".navbar  #signIn").mouseenter(function(){
+		$(".navbar  #signIn").animateCss("jello");
+	})	
 	
 /*-----------------------------------------------------------------
 					text on products images

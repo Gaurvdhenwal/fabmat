@@ -47,7 +47,7 @@
         <li><a href="#clients">CUSTOMERS</a></li>
         
         <li><a href="#contact">CONTACT</a></li>
-        <li  ><a href="signin.php" id="signIn">SIGN IN</a></li>
+        <li id="signIn" ><a href="signin.php" >SIGN IN</a></li>
       </ul>
     </div>
   </div>
@@ -209,7 +209,7 @@
 	<div class="row">
     	<div class="col-lg-12 text-center">
         	<h1 class="text-center ">Our <span class="first-letter">C</span>lients</h1>
-            <p class="lead">Happy Clients Come again .</p>
+            
         </div>
     </div>
     
