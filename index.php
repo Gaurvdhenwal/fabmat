@@ -139,8 +139,8 @@
                 <i class="fa fa-clipboard fa-5x" ></i>
                 <h3>From Paper </h3>
             </div>
-            <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-                <i class="fa fa-arrow-right fa-3x"></i>
+            <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center" style="color:#85C1E9; margin-top:20px;">
+                <i class="fa fa-arrow-right fa-3x animated  pulse infinite"></i>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" style="color:#873600  ;">
                 <i class="fa fa-home fa-5x"></i>
