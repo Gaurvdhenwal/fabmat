@@ -166,7 +166,7 @@ body  h1{
 #about .container{
 	padding-top:30px;}
 #about .summary{
-	border:5px  dotted #1ABC9C;
+	border:5px dotted #1ABC9C;
 	border-radius:5px;
 	margin-top:50px;
 	margin-bottom:50px;
@@ -244,7 +244,7 @@ body  h1{
 	background-color:#fff;
 	padding:40px 0px;}
 #clients .first-letter{
-	color:#AED6F1;}
+	color:#52BE80  ;}
 #clients h1{
 	font-size:40px;}
 #clients h2{
