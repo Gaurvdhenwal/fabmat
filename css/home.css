@@ -62,7 +62,14 @@ body  h1{
 .jumbotron .navbar,#header1{
 	margin:0px -20px;}
 
-
+.navbar #signIn{
+	background-color:#1ABC9C;
+	border-radius:3px;
+	font-weight:bold !important;
+	}
+.navbar #signIn a:hover{
+	color:white !important;
+	}
 	
 #header1{
 	position:absolute;
