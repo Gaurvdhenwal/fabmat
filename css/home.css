@@ -240,10 +240,9 @@ body  h1{
 	color:#1F3D5C;
 	font-weight:lighter;}
 #clients{
-	height:650px;
-	
-	
-	background-color:#fff;}
+	min-height:650px;
+	background-color:#fff;
+	padding:40px 0px;}
 #clients .first-letter{
 	color:#AED6F1;}
 #clients h1{
