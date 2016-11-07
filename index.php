@@ -5,7 +5,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="icon" type="icon" href='LOGO/icon.ico' />
  <script src="scripts/jquery.js"></script>
- <script src="scripts/jquery.stellar.js"></script>
+ <script src="scripts/jquery.stellar.min.js"></script>
  <script >
  $(function(){
 	 
