@@ -214,7 +214,7 @@
     </div>
     
     <h2 class="text-center">What our customers say</h2>
-<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+<div id="myCarousel" class="carousel slide text-center slideanim" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>

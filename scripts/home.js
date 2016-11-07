@@ -26,7 +26,7 @@ $(document).ready(function(){
   
   
  /*--------------------------------------------------------------- 
-                  //swing effect on h1 on mouse enter\\
+                  //swing effect  on mouse enter\\
 -----------------------------------------------------------------*/
 $.fn.extend({
     animateCss: function (animationName) {
